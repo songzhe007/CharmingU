@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="zhesong.madcourse.neu.edu.charmingu.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CharmingU"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textSize="36sp"
+        android:textColor="@android:color/background_dark"
+        android:layout_gravity="center"
+        />
+    <ToggleButton
+        android:id="@+id/button_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textOn="Step On"
+        android:textOff="Step Off"
+        android:checked="false" />
+
+    <Button
+        android:id="@+id/button_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/setp_countActivity"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/button_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Map"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/button_map2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Map2"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/button_map3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Map3"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+
+</LinearLayout>

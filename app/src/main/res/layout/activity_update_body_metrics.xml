@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_update_body_metrics"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#E5FFCC"
+    tools:context="zhe.charmu.UpdateBodyMetricsActivity">
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#009900"
+        android:text="Height:"/>
+    <EditText
+        android:id="@+id/et_height"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#B2FF66"
+        android:textColor="#009900"
+        android:textColorHint="#009900"
+        android:textSize="18sp"
+        android:textStyle="normal|italic"
+        android:hint="Iput your height in (m) here..."/>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+    <Button
+        android:id="@+id/bt_submit_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="@drawable/mgreenbutton"
+        android:textColor="#006400"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:text="Submit Height"/>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#009900"
+        android:text="Weight:"/>
+    <EditText
+        android:id="@+id/et_weight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#B2FF66"
+        android:textColor="#009900"
+        android:textColorHint="#009900"
+        android:textSize="18sp"
+        android:textStyle="normal|italic"
+        android:hint="Iput your weight in (kg) here..."/>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+    <Button
+        android:id="@+id/bt_submit_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="@drawable/mgreenbutton"
+        android:textColor="#006400"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:text="Submit Weight"/>
+</LinearLayout>

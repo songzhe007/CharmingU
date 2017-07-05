@@ -2,65 +2,81 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="zhesong.madcourse.neu.edu.charmingu.MainActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:orientation="vertical"
-    android:weightSum="1">
+    android:gravity="center_horizontal"
+    android:background="#CCE5FF"
+    tools:context="zhe.charmu.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CharmingU"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textSize="36sp"
-        android:textColor="@android:color/background_dark"
-        android:layout_gravity="center"
-        />
-    <ToggleButton
-        android:id="@+id/button_toggle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:textOn="Step On"
-        android:textOff="Step Off"
-        android:checked="false" />
-
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="50dp"/>
     <Button
-        android:id="@+id/button_step"
+        android:id="@+id/button_bodymetrics"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/setp_countActivity"
+        android:text="@string/body_metrics"
+        android:textColor="#0000FF"
+        android:textSize="20sp"
+        android:background="@drawable/mbluebutton"
         android:textAllCaps="false"
-        android:textSize="24sp" />
+        android:textStyle="bold"
+        android:onClick="bodyMetricsActivity"/>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+    <Button
+        android:id="@+id/button_budgetcontrol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/budget_control"
+        android:textSize="20sp"
+        android:background="@drawable/mbluebutton"
+        android:textColor="#0000FF"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:onClick="budgetControlActivity"/>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
     <Button
         android:id="@+id/button_map"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Map"
+        android:text="Google Map Tracker"
+        android:background="@drawable/mbluebutton"
+        android:textColor="#0000FF"
+        android:textSize="20sp"
         android:textAllCaps="false"
-        android:textSize="24sp" />
+        android:textStyle="bold"
+        android:onClick="googleMapActivity"/>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
     <Button
-        android:id="@+id/button_map2"
+        android:id="@+id/button_stepcount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Map2"
+        android:text="Step Count Supervisor"
+        android:background="@drawable/mbluebutton"
+        android:textColor="#0000FF"
+        android:textSize="20sp"
         android:textAllCaps="false"
-        android:textSize="24sp" />
-    <Button
-        android:id="@+id/button_map3"
-        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:onClick="stepCountActivity"/>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+    <ToggleButton
+        android:id="@+id/button_toggle"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Map3"
+        android:textOn="Turn On Step Counter"
+        android:textOff="Turn Off Step Counter"
+        android:background="#6495ED"
+        android:textColor="#8A2BE2"
         android:textAllCaps="false"
-        android:textSize="24sp" />
-
+        android:textStyle="bold"
+        android:checked="false" />
 </LinearLayout>

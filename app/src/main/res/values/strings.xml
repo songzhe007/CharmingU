@@ -1,24 +1,14 @@
 <resources>
-    <string name="app_name">CharmingU</string>
-    <string name="setp_countActivity">My Steps</string>
-    <string name="current_step">Current Steps:</string>
-    <string name="return_main">Retrun To Main Menu</string>
+    <string name="app_name">Charming U</string>
+    <string name="body_metrics">Body Metrics</string>
+    <string name="budget_control">Budget Control</string>
+    <string name="step_count">Step Count</string>
+    <string name="update_body_metrics">Update Your Body Metrics</string>
+    <string name="review_body_metrics">Review Your Body Metrics</string>
+    <string name="submit">Submit</string>
 
-
-
-
-    <!--    Permissions    -->
     <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
     <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
     <string name="permission_required_toast">Location permission is required for this demo.</string>
-
-    <string name="Timer">Time:</string>
-    <string name="Distance">Distance:</string>
-    <string name="Speed">Speed:</string>
-    <string name="Calories">Calories:</string>
-
-    <string name="runningstart_btn">Start!</string>
-    <string name="runningstop_btn">Stop!</string>
-
 
 </resources>

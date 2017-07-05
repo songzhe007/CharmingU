@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_budget_control"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#CCE5FF"
+    tools:context="zhe.charmu.BudgetControlActivity">
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/button_set_budget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Your Budget"
+        android:textColor="#0000FF"
+        android:textSize="20sp"
+        android:background="@drawable/mbluebutton"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:onClick="setBudgetActivity"/>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="70dp"/>
+    <Button
+        android:id="@+id/button_record_receipt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0000FF"
+        android:textSize="20sp"
+        android:background="@drawable/mbluebutton"
+        android:textAllCaps="false"
+        android:text="Record Your Receipt"
+        android:textStyle="bold"
+        android:onClick="recordReceiptActivity"/>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="70dp"/>
+    <Button
+        android:id="@+id/button_review_budget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0000FF"
+        android:textSize="20sp"
+        android:background="@drawable/mbluebutton"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:text="Review Your Budget Details"
+        android:onClick="reviewBudgetDetail"/>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+
+</LinearLayout>

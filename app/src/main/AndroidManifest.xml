@@ -1,42 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="zhesong.madcourse.neu.edu.charmingu">
+    package="edu.northeastern.charmu">
+
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <uses-feature android:name="android.hardware.sensor.stepcounter" android:required="true"/>
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_bridge"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:name="charmuApplication"
+        android:screenOrientation="portrait">
         <activity android:name=".MainActivity"
-            android:launchMode="singleTask">
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-
         </activity>
-        <activity android:name=".StepCountActivity">
-        </activity>
-
-        <activity android:name=".MapsActivity">
-
-        </activity>
-        <activity android:name=".MyLocationDemoActivity">
-
-        </activity>
-        <activity android:name=".ShowLocationActivity">
-
-        </activity>
+        <activity android:name=".BodyMetricsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".BudgetControlActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".StepCountActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".UpdateBodyMetricsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ReviewBodyMetricsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SetBudgetActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".RecordReceiptActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ShowBodyMetricsTendency"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ShowBodyMetricsSingle"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ReviewBudgetDetail"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".GoogleMapActivity"
+            android:screenOrientation="portrait"/>
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAR5CfmDfSRp91ujnMo_e7gRCkxsxIv8DA"/>
-
+            android:value="AIzaSyD1ak_eUdLXSF_6qB4rftgCIBx3BAdiRZQ"/><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

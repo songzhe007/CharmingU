@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_set_budget"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#E5FFCC"
+    tools:context="zhe.charmu.SetBudgetActivity">
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#009900"
+        android:textSize="18sp"
+        android:text="Set your budget for this month below:"/>
+    <EditText
+        android:id="@+id/et_budget"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#B2FF66"
+        android:textColor="#009900"
+        android:textColorHint="#009900"
+        android:textSize="20sp"
+        android:textStyle="normal|italic"
+        android:hint="Iput your budget(dollar) here..."/>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/bt_submit_budget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="@drawable/mgreenbutton"
+        android:textColor="#006400"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:text="Submit Budget"/>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:textColor="#009900"
+        android:text="Please don't set budget repeatedly within one month !"/>
+
+</LinearLayout>

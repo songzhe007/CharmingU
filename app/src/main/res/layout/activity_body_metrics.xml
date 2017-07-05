@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_body_metrics"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#CCE5FF"
+    tools:context="zhe.charmu.BodyMetricsActivity">
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="80dp"/>
+    <Button
+        android:id="@+id/button_update_metrics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_body_metrics"
+        android:textColor="#0000FF"
+        android:textSize="20sp"
+        android:background="@drawable/mbluebutton"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:onClick="startUpdateBodyMetricsActivity"/>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="110dp"/>
+    <Button
+        android:id="@+id/button_review_metrics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/review_body_metrics"
+        android:textColor="#0000FF"
+        android:textSize="20sp"
+        android:background="@drawable/mbluebutton"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:onClick="startReviewBodyMetricsActivity"/>
+
+</LinearLayout>

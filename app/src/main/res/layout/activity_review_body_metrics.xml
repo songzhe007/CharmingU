@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_review_body_metrics"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#E5FFCC"
+    tools:context="zhe.charmu.ReviewBodyMetricsActivity">
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" From: "
+            android:textStyle="bold"
+            android:textColor="#009900"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/et_from"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#B2FF66"
+            android:textColor="#009900"
+            android:textColorHint="#009900"
+            android:textSize="18sp"
+            android:textStyle="normal|italic"
+            android:hint="Input start date mm/dd/yyyy..."/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#009900"
+            android:text=" To     : "/>
+        <EditText
+            android:id="@+id/et_to"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#B2FF66"
+            android:textColor="#009900"
+            android:textColorHint="#009900"
+            android:textSize="18sp"
+            android:textStyle="normal|italic"
+            android:hint="Input end date mm/dd/yyyy..."/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="40dp"/>
+
+    <Button
+        android:id="@+id/bt_review_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="@drawable/mgreenbutton"
+        android:textColor="#006400"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:text="Review Your Weight"/>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:id="@+id/bt_review_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="@drawable/mgreenbutton"
+        android:textColor="#006400"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:text="Review Your BMI"/>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:id="@+id/bt_review_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="@drawable/mgreenbutton"
+        android:textColor="#006400"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:text="Review Your Steps"/>
+
+</LinearLayout>

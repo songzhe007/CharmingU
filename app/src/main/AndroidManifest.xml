@@ -14,14 +14,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:screenOrientation="portrait">
-        <activity android:name=".MainActivity"
-            android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity android:name=".HomeActivity"
+            android:screenOrientation="portrait">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
+
+
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+
+
         <activity android:name="zhe.charmu.bodymetrics.BodyMetricsActivity"
             android:screenOrientation="portrait"/>
         <activity android:name="zhe.charmu.budgetcontrol.BudgetControlActivity"
@@ -44,6 +50,11 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".GoogleMapActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name ="zhe.charmu.authentication.LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name ="zhe.charmu.authentication.RegisterActivity"
+            android:screenOrientation="portrait"/>
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyD1ak_eUdLXSF_6qB4rftgCIBx3BAdiRZQ"/><!-- ATTENTION: This was auto-generated to add Google Play services to your project for

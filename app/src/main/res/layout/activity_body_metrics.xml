@@ -19,7 +19,6 @@
         android:text="@string/update_body_metrics"
         android:textColor="#0000FF"
         android:textSize="20sp"
-        android:background="@drawable/mbluebutton"
         android:textAllCaps="false"
         android:textStyle="bold"
         android:onClick="startUpdateBodyMetricsActivity"/>
@@ -34,7 +33,6 @@
         android:text="@string/review_body_metrics"
         android:textColor="#0000FF"
         android:textSize="20sp"
-        android:background="@drawable/mbluebutton"
         android:textAllCaps="false"
         android:textStyle="bold"
         android:onClick="startReviewBodyMetricsActivity"/>

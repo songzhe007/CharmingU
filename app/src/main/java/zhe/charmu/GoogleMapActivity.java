@@ -408,8 +408,6 @@ public class GoogleMapActivity extends AppCompatActivity
 
 
 
-
-
     protected void onStart() {
         mGoogleApiClient.connect();
         System.out.println("connected!!!");

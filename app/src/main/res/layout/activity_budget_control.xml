@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="center_horizontal"
     android:background="#CCE5FF"
-    tools:context="zhe.charmu.BudgetControl.BudgetControlActivity">
+    tools:context="zhe.charmu.budgetcontrol.BudgetControlActivity">
 
     <Space
         android:layout_width="1dp"
@@ -19,7 +19,6 @@
         android:text="Set Your Budget"
         android:textColor="#0000FF"
         android:textSize="20sp"
-        android:background="@drawable/mbluebutton"
         android:textAllCaps="false"
         android:textStyle="bold"
         android:onClick="setBudgetActivity"/>
@@ -32,7 +31,6 @@
         android:layout_height="wrap_content"
         android:textColor="#0000FF"
         android:textSize="20sp"
-        android:background="@drawable/mbluebutton"
         android:textAllCaps="false"
         android:text="Record Your Receipt"
         android:textStyle="bold"
@@ -46,7 +44,6 @@
         android:layout_height="wrap_content"
         android:textColor="#0000FF"
         android:textSize="20sp"
-        android:background="@drawable/mbluebutton"
         android:textAllCaps="false"
         android:textStyle="bold"
         android:text="Review Your Budget Details"

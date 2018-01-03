@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="center_horizontal"
     android:background="#E5FFCC"
-    tools:context="zhe.charmu.BudgetControl.SetBudgetActivity">
+    tools:context="zhe.charmu.budgetcontrol.SetBudgetActivity">
 
     <Space
         android:layout_width="1dp"
@@ -37,7 +37,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:background="@drawable/mgreenbutton"
         android:textColor="#006400"
         android:textAllCaps="false"
         android:textStyle="bold"

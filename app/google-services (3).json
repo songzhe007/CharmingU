@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "413189096042",
+    "firebase_url": "https://charmingu-cbc94.firebaseio.com",
+    "project_id": "charmingu-cbc94",
+    "storage_bucket": "charmingu-cbc94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413189096042:android:6bf241b69369f5f7",
+        "android_client_info": {
+          "package_name": "zhe.charmu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413189096042-opmsglfjshkg0u7c39364j5ohne3earf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-Tapips5_0iaeA07aPKlgX-e5d1AO2CI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413189096042:android:7a44e5f0825c00d2",
+        "android_client_info": {
+          "package_name": "zhe.charmu.authentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413189096042-opmsglfjshkg0u7c39364j5ohne3earf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-Tapips5_0iaeA07aPKlgX-e5d1AO2CI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

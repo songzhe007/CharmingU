@@ -109,10 +109,10 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         startActivity(intent);
     }
 
-//    public void googleMapActivity(View view) {
-//        Intent intent = new Intent(this, GoogleMapActivity.class);
-//        startActivity(intent);
-//    }
+    public void googleMapActivity(View view) {
+        Intent intent = new Intent(this, GoogleMapActivity.class);
+        startActivity(intent);
+    }
 
 
     private void stepCount() {

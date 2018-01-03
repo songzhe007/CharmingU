@@ -11,7 +11,7 @@ public class Item {
     public boolean ifHealthy;
     public float price;
 
-    Item(String _title, float _amount, boolean _ifHealthy, float _price){
+   public Item(String _title, float _amount, boolean _ifHealthy, float _price){
         title = _title;
         amount = _amount;
         ifHealthy = _ifHealthy;

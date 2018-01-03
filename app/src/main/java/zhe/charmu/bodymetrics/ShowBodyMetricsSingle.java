@@ -1,4 +1,4 @@
-package zhe.charmu;
+package zhe.charmu.bodymetrics;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,9 +7,10 @@ import android.widget.TextView;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 
-import model.DailyMetrics;
-import model.NotificationUtil;
+import zhe.charmu.model.DailyMetrics;
+import zhe.charmu.model.NotificationUtil;
 import zhe.charmu.database.DatabaseHelper;
+import zhe.charmu.R;
 
 public class ShowBodyMetricsSingle extends AppCompatActivity {
 

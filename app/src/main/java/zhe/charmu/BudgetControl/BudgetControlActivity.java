@@ -1,13 +1,14 @@
-package zhe.charmu.BudgetControl;
+package zhe.charmu.budgetcontrol;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import model.NotificationUtil;
-import zhe.charmu.Globals;
-import zhe.charmu.RecordReceiptActivity;
+import zhe.charmu.model.NotificationUtil;
+import zhe.charmu.model.Globals;
+import zhe.charmu.metricstendency.RecordReceiptActivity;
 import zhe.charmu.database.DatabaseHelper;
+import zhe.charmu.R;
 
 public class BudgetControlActivity extends AppCompatActivity {
 

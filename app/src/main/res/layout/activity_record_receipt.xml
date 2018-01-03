@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="center_horizontal"
     android:background="#E5FFCC"
-    tools:context="zhe.charmu.RecordReceiptActivity">
+    tools:context="zhe.charmu.metricstendency.RecordReceiptActivity">
 
     <Space
         android:layout_width="1dp"

@@ -1,10 +1,8 @@
-package zhe.charmu;
+package zhe.charmu.model;
 
 import android.app.Application;
 
 import java.util.Date;
-
-import zhe.charmu.model.MonthlyMetrics;
 
 public class Globals extends Application {
 

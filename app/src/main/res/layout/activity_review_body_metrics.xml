@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="center_horizontal"
     android:background="#E5FFCC"
-    tools:context="zhe.charmu.ReviewBodyMetricsActivity">
+    tools:context="zhe.charmu.bodymetrics.ReviewBodyMetricsActivity">
 
     <Space
         android:layout_width="1dp"

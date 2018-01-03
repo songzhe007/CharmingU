@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     android:background="#FFCCE5"
-    tools:context="zhe.charmu.ShowBodyMetricsSingle">
+    tools:context="zhe.charmu.bodymetrics.ShowBodyMetricsSingle">
 
     <TextView
         android:id="@+id/tv_show"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.northeastern.charmu">
+    package="zhe.charmu">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
@@ -13,7 +13,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name="charmuApplication"
         android:screenOrientation="portrait">
         <activity android:name=".MainActivity"
             android:screenOrientation="portrait">
@@ -23,25 +22,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BodyMetricsActivity"
+        <activity android:name="zhe.charmu.bodymetrics.BodyMetricsActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".BudgetControlActivity"
+        <activity android:name="zhe.charmu.budgetcontrol.BudgetControlActivity"
             android:screenOrientation="portrait"/>
         <activity android:name=".StepCountActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".UpdateBodyMetricsActivity"
+        <activity android:name="zhe.charmu.bodymetrics.UpdateBodyMetricsActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".ReviewBodyMetricsActivity"
+        <activity android:name="zhe.charmu.bodymetrics.ReviewBodyMetricsActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".SetBudgetActivity"
+        <activity android:name="zhe.charmu.budgetcontrol.SetBudgetActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".RecordReceiptActivity"
+        <activity android:name="zhe.charmu.metricstendency.RecordReceiptActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".ShowBodyMetricsTendency"
+        <activity android:name="zhe.charmu.metricstendency.ShowBodyMetricsTendency"
             android:screenOrientation="portrait"/>
-        <activity android:name=".ShowBodyMetricsSingle"
+        <activity android:name="zhe.charmu.bodymetrics.ShowBodyMetricsSingle"
             android:screenOrientation="portrait"/>
-        <activity android:name=".ReviewBudgetDetail"
+        <activity android:name="zhe.charmu.budgetcontrol.ReviewBudgetDetail"
             android:screenOrientation="portrait"/>
         <activity android:name=".GoogleMapActivity"
             android:screenOrientation="portrait"/>

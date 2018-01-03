@@ -6,11 +6,11 @@ package zhe.charmu.model;
 
 public class DailyMetrics  {
 
-    protected int _id;
-    protected float weight;
-    protected float bmi;
-    protected String date;
-    protected float step;
+    public int _id;
+    public float weight;
+    public float bmi;
+    public String date;
+    public float step;
 
    public  DailyMetrics(int id, String _date, float _weight, float _bmi, float _step){
         _id = id;

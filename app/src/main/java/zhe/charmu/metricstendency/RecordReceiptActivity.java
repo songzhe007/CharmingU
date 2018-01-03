@@ -1,4 +1,4 @@
-package zhe.charmu;
+package zhe.charmu.metricstendency;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -11,11 +11,13 @@ import android.widget.RadioGroup;
 
 import java.util.LinkedList;
 
-import model.CheckInputFormatUtil;
-import model.Item;
-import model.NotificationUtil;
-import zhe.charmu.BudgetControl.ReviewBudgetDetail;
+import zhe.charmu.model.CheckInputFormatUtil;
+import zhe.charmu.model.Item;
+import zhe.charmu.model.NotificationUtil;
+import zhe.charmu.budgetcontrol.ReviewBudgetDetail;
 import zhe.charmu.database.DatabaseHelper;
+import zhe.charmu.model.Globals;
+import zhe.charmu.R;
 
 public class RecordReceiptActivity extends AppCompatActivity {
 

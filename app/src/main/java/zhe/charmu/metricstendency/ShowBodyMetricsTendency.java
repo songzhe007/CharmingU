@@ -1,4 +1,4 @@
-package zhe.charmu;
+package zhe.charmu.metricstendency;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -15,9 +15,10 @@ import com.github.mikephil.charting.data.LineDataSet;
 import java.util.ArrayList;
 import java.util.List;
 
-import model.DailyMetrics;
-import model.NotificationUtil;
+import zhe.charmu.model.DailyMetrics;
+import zhe.charmu.model.NotificationUtil;
 import zhe.charmu.database.DatabaseHelper;
+import zhe.charmu.R;
 
 import static android.graphics.Color.rgb;
 

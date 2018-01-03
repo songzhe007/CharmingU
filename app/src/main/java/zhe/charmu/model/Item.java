@@ -6,10 +6,10 @@ package zhe.charmu.model;
 
 public class Item {
 
-    protected String title;
-    protected float amount;
-    protected boolean ifHealthy;
-    protected float price;
+    public String title;
+    public float amount;
+    public boolean ifHealthy;
+    public float price;
 
     Item(String _title, float _amount, boolean _ifHealthy, float _price){
         title = _title;

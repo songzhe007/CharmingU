@@ -1,4 +1,4 @@
-package zhe.charmu;
+package zhe.charmu.bodymetrics;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,9 +6,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import model.CheckInputFormatUtil;
-import model.NotificationUtil;
+import zhe.charmu.model.CheckInputFormatUtil;
+import zhe.charmu.model.NotificationUtil;
 import zhe.charmu.database.DatabaseHelper;
+import zhe.charmu.model.Globals;
+import zhe.charmu.R;
 
 public class UpdateBodyMetricsActivity extends AppCompatActivity {
 

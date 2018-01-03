@@ -1,4 +1,4 @@
-package zhe.charmu.BudgetControl;
+package zhe.charmu.budgetcontrol;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -15,8 +15,9 @@ import com.github.mikephil.charting.formatter.PercentFormatter;
 
 import java.util.ArrayList;
 
-import model.NotificationUtil;
-import zhe.charmu.Globals;
+import zhe.charmu.model.NotificationUtil;
+import zhe.charmu.model.Globals;
+import zhe.charmu.R;
 
 import static android.graphics.Color.rgb;
 

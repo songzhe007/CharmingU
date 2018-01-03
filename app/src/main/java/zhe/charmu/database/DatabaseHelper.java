@@ -80,44 +80,44 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.insertOrThrow(MONTHLY_TABLE, null, cv);
     }
 
-    void setHeight(float newHeight, SQLiteDatabase db){
+   public void setHeight(float newHeight, SQLiteDatabase db){
         ContentValues cv = new ContentValues();
         cv.put(HEIGHT_COL, newHeight);
         db.update(MONTHLY_TABLE, cv, "_id = 1", null);
     }
 
-    void setRemain(float newRemain, SQLiteDatabase db){
+   public void setRemain(float newRemain, SQLiteDatabase db){
         ContentValues cv = new ContentValues();
         cv.put(REMAIN_COL, newRemain);
         db.update(MONTHLY_TABLE, cv, "_id = 1", null);
     }
 
-    void setHealthy(float newHealthy, SQLiteDatabase db){
+   public void setHealthy(float newHealthy, SQLiteDatabase db){
         ContentValues cv = new ContentValues();
         cv.put(HEALTHY_COL, newHealthy);
         db.update(MONTHLY_TABLE, cv, "_id = 1", null);
     }
 
-    void setUnhealthy(float newUnealthy, SQLiteDatabase db){
+   public void setUnhealthy(float newUnealthy, SQLiteDatabase db){
         ContentValues cv = new ContentValues();
         cv.put(UNHEALTHY_COL, newUnealthy);
         db.update(MONTHLY_TABLE, cv, "_id = 1", null);
     }
 
-    void setBudget(float newBudget, SQLiteDatabase db){
+   public void setBudget(float newBudget, SQLiteDatabase db){
         ContentValues cv = new ContentValues();
         cv.put(BUDGET_COL, newBudget);
         db.update(MONTHLY_TABLE, cv, "_id = 1", null);
     }
 
-    void setDate(SQLiteDatabase db){
+   public void setDate(SQLiteDatabase db){
         ContentValues cv = new ContentValues();
         String todayStr = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
         cv.put(BUDGET_SET_DATE_COL, todayStr);
         db.update(MONTHLY_TABLE, cv, "_id = 1", null);
     }
 
-    void setWeight(float height, float newWeight, SQLiteDatabase db, boolean ifTodaySet){
+   public void setWeight(float height, float newWeight, SQLiteDatabase db, boolean ifTodaySet){
         ContentValues cv = new ContentValues();
         cv.put(WEIGHT_COL, newWeight);
         double newBMI =  newWeight/Math.pow(height,2);
@@ -132,7 +132,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         }
     }
 
-    void setSteps(float newStep, boolean ifTodaySet){
+   public void setSteps(float newStep, boolean ifTodaySet){
         System.out.println("Set step is called here!!");
         SQLiteDatabase db = this.getWritableDatabase();
         System.out.println(newStep);
@@ -152,7 +152,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.close();
     }
 
-    MonthlyMetrics getMonthMetrics(SQLiteDatabase db){
+   public MonthlyMetrics getMonthMetrics(SQLiteDatabase db){
         MonthlyMetrics monthMetrics = null;
         Cursor cursor = db.query(MONTHLY_TABLE,new String[] { "*" },
                 null, null, null, null, null, null);
@@ -177,7 +177,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return monthMetrics;
     }
 
-    ArrayList<DailyMetrics> getDailyMetrics(String from_date, String to_date, SQLiteDatabase db){
+   public ArrayList<DailyMetrics> getDailyMetrics(String from_date, String to_date, SQLiteDatabase db){
         ArrayList<DailyMetrics> list = new ArrayList<>();
         String query = "SELECT * FROM daily_metrics WHERE date BETWEEN '"
                 + from_date+"' AND '" + to_date+"' ";

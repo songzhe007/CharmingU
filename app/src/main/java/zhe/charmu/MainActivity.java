@@ -16,6 +16,11 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
+import model.DailyMetrics;
+import model.NotificationUtil;
+import zhe.charmu.BudgetControl.BudgetControlActivity;
+import zhe.charmu.database.DatabaseHelper;
+
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
 
     DatabaseHelper dbHelper;

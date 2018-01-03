@@ -15,6 +15,10 @@ import com.github.mikephil.charting.data.LineDataSet;
 import java.util.ArrayList;
 import java.util.List;
 
+import model.DailyMetrics;
+import model.NotificationUtil;
+import zhe.charmu.database.DatabaseHelper;
+
 import static android.graphics.Color.rgb;
 
 public class ShowBodyMetricsTendency extends AppCompatActivity {

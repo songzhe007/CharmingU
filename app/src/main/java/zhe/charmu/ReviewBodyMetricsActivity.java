@@ -6,6 +6,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import model.CheckInputFormatUtil;
+import zhe.charmu.database.DatabaseHelper;
+
 public class ReviewBodyMetricsActivity extends AppCompatActivity {
 
     private final static String[] button_type = {"weight","BMI","step"};

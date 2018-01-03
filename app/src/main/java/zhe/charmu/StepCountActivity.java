@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
+import zhe.charmu.database.DatabaseHelper;
+
 public class StepCountActivity extends AppCompatActivity{
 
     private DatabaseHelper dbHelper;

@@ -11,6 +11,12 @@ import android.widget.RadioGroup;
 
 import java.util.LinkedList;
 
+import model.CheckInputFormatUtil;
+import model.Item;
+import model.NotificationUtil;
+import zhe.charmu.BudgetControl.ReviewBudgetDetail;
+import zhe.charmu.database.DatabaseHelper;
+
 public class RecordReceiptActivity extends AppCompatActivity {
 
     EditText et_item_name;

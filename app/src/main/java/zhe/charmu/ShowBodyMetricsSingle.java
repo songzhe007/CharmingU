@@ -7,6 +7,10 @@ import android.widget.TextView;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 
+import model.DailyMetrics;
+import model.NotificationUtil;
+import zhe.charmu.database.DatabaseHelper;
+
 public class ShowBodyMetricsSingle extends AppCompatActivity {
 
     String type;

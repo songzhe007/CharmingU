@@ -1,4 +1,4 @@
-package zhe.charmu;
+package zhe.charmu.BudgetControl;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,12 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import java.util.Date;
+
+import model.CheckInputFormatUtil;
+import model.DateUtil;
+import model.NotificationUtil;
+import zhe.charmu.Globals;
+import zhe.charmu.database.DatabaseHelper;
 
 public class SetBudgetActivity extends AppCompatActivity {
 

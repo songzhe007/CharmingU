@@ -1,11 +1,16 @@
 package zhe.charmu.model;
 
+import java.util.Set;
+
 public class User {
     private String username;
     private String status;
     private String profile;
     private String small_image;
     private String userId;
+    private double calroies;
+    public Set<User> friend;
+
 
     public User() {
 
@@ -18,7 +23,9 @@ public class User {
         this.small_image = small_image;
         this.userId = userId;
     }
-
+   public void setCalroies(double calroies){
+        this.calroies = calroies;
+   }
     public void setUsername(String username) {
         this.username = username;
     }
@@ -57,5 +64,9 @@ public class User {
 
     public String getUserId() {
         return userId;
+    }
+
+    public double getCalroies(){
+         return this.calroies;
     }
 }

@@ -104,18 +104,12 @@ public class RegisterActivity extends AppCompatActivity{
                             if(task.isSuccessful()){
                                 String userId = mAuth.getCurrentUser().getUid();
 
-                                createUser(userId);
+                                //createUser(userId);
                                 User users = new User(userNameText,STATUS_DEFAULT_VALUE,
                                         "default","default",userId);
 
                                 DatabaseReference curUserDb = mDatabaseReference.child(userId);
-                                curUserDb.child(userId).setValue(users);
-//
-//                            curUserDb.child("username").setValue(userNameText);
-//                            curUserDb.child("status").setValue(STATUS_DEFAULT_VALUE);
-//                            curUserDb.child("profile").setValue("default");
-//                            curUserDb.child("small_image").setValue("default");
-//                            curUserDb.child("userId").setValue(userId);
+                                curUserDb.setValue(users);
 
                                 mProgressDialog.dismiss();
                                 // direct user to PostListActivity

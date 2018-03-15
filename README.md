@@ -16,7 +16,7 @@ This app support friend system and you can add other users as friend and chat wi
 
 Enable the step counter in your android device and record your daily steps! 
 
-# Monitoring your food budget
+# Monitoring Your Food Budget
 
 Type your daily food taken and get a comprehensive tendency analysis with piechart.
 

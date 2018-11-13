@@ -106,8 +106,12 @@ public class GoogleMapActivity extends AppCompatActivity
                 .build();
 
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+
         isGPSenabled = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
+
         isNetWorkenabled = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+
+
         ch=(Chronometer) findViewById(R.id.timer);
 
         distance_tv = (TextView) findViewById(R.id.distance);
@@ -148,6 +152,7 @@ public class GoogleMapActivity extends AppCompatActivity
             @Override
             public void onClick(View v) {
                 thread.start();
+
                 ch.setBase(SystemClock.elapsedRealtime());
                 int hour = (int) ((SystemClock.elapsedRealtime() - ch.getBase()) / 1000 / 60);
                 ch.setFormat("0"+String.valueOf(hour)+":%s");
@@ -188,7 +193,7 @@ public class GoogleMapActivity extends AppCompatActivity
 
 
 
-    private Handler mHandler = new Handler() {
+    private  Handler mHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
